@@ -22,8 +22,9 @@ WannaCry勒索病毒主要行为是传播和勒索。
 
 参考文章：
 
-[[网络安全自学篇] 六十七.WannaCry勒索病毒复现及分析（一）Python利用永恒之蓝及Win7勒索加密](https://blog.csdn.net/Eastmount/article/details/105407843)
-[[网络安全自学篇] 六十八.WannaCry勒索病毒复现及分析（二）MS17-010利用及病毒解析](https://blog.csdn.net/Eastmount/article/details/105640538)
+[[网络安全自学篇] 六十七.WannaCry勒索病毒复现及分析（一）Python利用永恒之蓝及Win7勒索加密](https://blog.csdn.net/Eastmount/article/details/105407843) <br />
+[[网络安全自学篇] 六十八.WannaCry勒索病毒复现及分析（二）MS17-010利用及病毒解析](https://blog.csdn.net/Eastmount/article/details/105640538) <br />
+
 
 ## 实验复现
 
@@ -56,23 +57,23 @@ https://img-blog.csdnimg.cn/20200414014519105.png#pic_center =400x400
 为了更好帮助读者，作者将参考文献提前。下面给出下各大安全厂商及安全大佬对WannaCry蠕虫分析的文章，强烈推荐大家阅读，作者也吸取了它们的精华，在此感谢。
 
 - 安全厂商样本分析：
-[1] [安天针对勒索蠕虫“魔窟”（WannaCry）的深度分析报告](https://www.antiy.com/response/wannacry.html)
-[2] [[分享] 勒索病毒WannaCry深度技术分析——详解传播、感染和危害细节 - 火绒安全](https://www.52pojie.cn/thread-608742-1-1.html)
-[3] [WannaCry勒索病毒详细解读 - 腾讯电脑管家](https://www.freebuf.com/articles/system/135196.html?mType=Group)
-[4] [NSA Eternalblue SMB 漏洞分析 - 360核心安全](https://blogs.360.cn/post/nsa-eternalblue-smb.html)
-[5] [针对WannaRen勒索软件的梳理与分析 - 安天](https://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&mid=2650174694&idx=1&sn=97862a88a90a8ac081acb1dffb3a893e)
-[6] [【权威报告】WanaCrypt0r勒索蠕虫完全分析报告 - 360追日](https://www.anquanke.com/post/id/86092)
-[7] [WannaCry勒索病毒分析报告 - 瑞星](https://www.freebuf.com/articles/paper/134637.html)
+[1] [安天针对勒索蠕虫“魔窟”（WannaCry）的深度分析报告](https://www.antiy.com/response/wannacry.html) <br />
+[2] [[分享] 勒索病毒WannaCry深度技术分析——详解传播、感染和危害细节 - 火绒安全](https://www.52pojie.cn/thread-608742-1-1.html) <br />
+[3] [WannaCry勒索病毒详细解读 - 腾讯电脑管家](https://www.freebuf.com/articles/system/135196.html?mType=Group) <br />
+[4] [NSA Eternalblue SMB 漏洞分析 - 360核心安全](https://blogs.360.cn/post/nsa-eternalblue-smb.html) <br />
+[5] [针对WannaRen勒索软件的梳理与分析 - 安天](https://mp.weixin.qq.com/s?__biz=MjM5MTA3Nzk4MQ==&mid=2650174694&idx=1&sn=97862a88a90a8ac081acb1dffb3a893e) <br />
+[6] [【权威报告】WanaCrypt0r勒索蠕虫完全分析报告 - 360追日](https://www.anquanke.com/post/id/86092) <br />
+[7] [WannaCry勒索病毒分析报告 - 瑞星](https://www.freebuf.com/articles/paper/134637.html) <br />
 
 - 安全大佬样本分析：
-[1] [对WannaCry的深度分析 - 鬼手56（勒索部分详解）](https://blog.csdn.net/qq_38474570/article/details/87716826)
-[2] [[原创]WannaCry勒索软件中“永恒之蓝”漏洞利用分析 - 展博](https://bbs.pediy.com/thread-217734.htm)
-[3] [[原创]通过Wannacry分析内核shellcode注入dll技术 - dragonwang](https://bbs.pediy.com/thread-221756.htm)
-[4] [[病毒分析]WannaCry病毒分析(永恒之蓝) - 小彩虹](https://www.cnblogs.com/wensday/p/9099386.html)
-[5] [WannaCry勒索病毒逆向和内网传播数据分析 - sec360zz](https://www.freebuf.com/news/134989.html)
-[6] [首发 | Wannacry勒索软件母体主程序逆向分析（含临时解决方案自动化工具）- expsky](https://www.freebuf.com/vuls/134602.html)
-[7] [[原创]WannaCry深度详细分析报告（很细很深）- anhkgg](https://www.freebuf.com/column/135722.html)
-[8] [https://github.com/rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework)
+[1] [对WannaCry的深度分析 - 鬼手56（勒索部分详解）](https://blog.csdn.net/qq_38474570/article/details/87716826) <br />
+[2] [[原创]WannaCry勒索软件中“永恒之蓝”漏洞利用分析 - 展博](https://bbs.pediy.com/thread-217734.htm) <br />
+[3] [[原创]通过Wannacry分析内核shellcode注入dll技术 - dragonwang](https://bbs.pediy.com/thread-221756.htm) <br />
+[4] [[病毒分析]WannaCry病毒分析(永恒之蓝) - 小彩虹](https://www.cnblogs.com/wensday/p/9099386.html) <br />
+[5] [WannaCry勒索病毒逆向和内网传播数据分析 - sec360zz](https://www.freebuf.com/news/134989.html) <br />
+[6] [首发 | Wannacry勒索软件母体主程序逆向分析（含临时解决方案自动化工具）- expsky](https://www.freebuf.com/vuls/134602.html) <br />
+[7] [[原创]WannaCry深度详细分析报告（很细很深）- anhkgg](https://www.freebuf.com/column/135722.html) <br />
+[8] [https://github.com/rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) <br />
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020042713474914.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Vhc3Rtb3VudA==,size_16,color_FFFFFF,t_70#pic_center =550x200)
 

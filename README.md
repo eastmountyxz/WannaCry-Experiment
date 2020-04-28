@@ -1,7 +1,9 @@
 # WannaCry-Experiment
 该资源主要复现了WannCry勒索病毒过程，包括对应的资源、文章和勒索病毒。希望对您有所帮助~
 
-<img src="https://img-blog.csdnimg.cn/20200413232834492.png" height="60%" width="60%" />
+<div align="center">
+  <img src="https://img-blog.csdnimg.cn/20200413232834492.png" height="60%" width="60%" />
+</div>
 
 WannaCry勒索病毒主要行为是传播和勒索。
 - **传播**：利用基于445端口的SMB漏洞MS17-010(永恒之蓝)进行传播
@@ -33,8 +35,9 @@ WannaCry运行的整体流程推荐安天公司的框架图，如下图所示：
 - WannaCry勒索程序释放tasksche.exe，对磁盘文件进行加密勒索
 - @WanaDecryptor@.exe显示勒索信息，解密示例文件
 
-<img src="https://img-blog.csdnimg.cn/20200414014519105.png" height="60%" width="60%" />
-
+<div align="center">
+  <img src="https://img-blog.csdnimg.cn/20200414014519105.png" height="60%" width="60%" />
+</div>
 
 ## 传播过程
 其中，图中上半部分为WannaCry蠕虫的传播部分，该蠕虫通过网络进行传播，有自我复制和传播迅速等特点。传播步骤如下：
@@ -73,8 +76,9 @@ WannaCry运行的整体流程推荐安天公司的框架图，如下图所示：
 [8] [https://github.com/rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) <br />
 
 
-<img src="https://img-blog.csdnimg.cn/2020042713474914.png" height="60%" width="60%" />
-
+<div align="center">
+  <img src="https://img-blog.csdnimg.cn/2020042713474914.png" height="60%" width="60%" />
+</div>
 
 
 ---

@@ -1,8 +1,7 @@
 # WannaCry-Experiment
 该资源主要复现了WannCry勒索病毒过程，包括对应的资源、文章和勒索病毒。希望对您有所帮助~
 
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200413232834492.png#pic_center =400x280)
+<img src="https://img-blog.csdnimg.cn/20200413232834492.png" height="60%" width="60%" />
 
 WannaCry勒索病毒主要行为是传播和勒索。
 - **传播**：利用基于445端口的SMB漏洞MS17-010(永恒之蓝)进行传播
@@ -20,10 +19,11 @@ WannaCry勒索病毒主要行为是传播和勒索。
 
 
 
-参考文章：
+<B>参考文章：</B>
 
-[[网络安全自学篇] 六十七.WannaCry勒索病毒复现及分析（一）Python利用永恒之蓝及Win7勒索加密](https://blog.csdn.net/Eastmount/article/details/105407843) <br />
-[[网络安全自学篇] 六十八.WannaCry勒索病毒复现及分析（二）MS17-010利用及病毒解析](https://blog.csdn.net/Eastmount/article/details/105640538) <br />
+[WannaCry勒索病毒复现及分析（一）Python利用永恒之蓝及Win7勒索加密](https://blog.csdn.net/Eastmount/article/details/105407843) <br />
+[WannaCry勒索病毒复现及分析（二）MS17-010利用及病毒解析](https://blog.csdn.net/Eastmount/article/details/105640538) <br />
+[WannaCry勒索病毒复现及分析（三）蠕虫传播机制分析及IDA和OD逆向](https://blog.csdn.net/Eastmount/article/details/105760940) <br />
 
 
 ## 实验复现
@@ -33,7 +33,7 @@ WannaCry运行的整体流程推荐安天公司的框架图，如下图所示：
 - WannaCry勒索程序释放tasksche.exe，对磁盘文件进行加密勒索
 - @WanaDecryptor@.exe显示勒索信息，解密示例文件
 
-https://img-blog.csdnimg.cn/20200414014519105.png#pic_center =400x400
+<img src="https://img-blog.csdnimg.cn/20200414014519105.png" height="60%" width="60%" />
 
 
 ## 传播过程
@@ -49,14 +49,11 @@ https://img-blog.csdnimg.cn/20200414014519105.png#pic_center =400x400
 
 
 
-## 勒索过程
-
-
 ## 推荐文章
 
 为了更好帮助读者，作者将参考文献提前。下面给出下各大安全厂商及安全大佬对WannaCry蠕虫分析的文章，强烈推荐大家阅读，作者也吸取了它们的精华，在此感谢。
 
-- 安全厂商样本分析：
+- 安全厂商样本分析： <br />
 [1] [安天针对勒索蠕虫“魔窟”（WannaCry）的深度分析报告](https://www.antiy.com/response/wannacry.html) <br />
 [2] [[分享] 勒索病毒WannaCry深度技术分析——详解传播、感染和危害细节 - 火绒安全](https://www.52pojie.cn/thread-608742-1-1.html) <br />
 [3] [WannaCry勒索病毒详细解读 - 腾讯电脑管家](https://www.freebuf.com/articles/system/135196.html?mType=Group) <br />
@@ -75,7 +72,8 @@ https://img-blog.csdnimg.cn/20200414014519105.png#pic_center =400x400
 [7] [[原创]WannaCry深度详细分析报告（很细很深）- anhkgg](https://www.freebuf.com/column/135722.html) <br />
 [8] [https://github.com/rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) <br />
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020042713474914.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Vhc3Rtb3VudA==,size_16,color_FFFFFF,t_70#pic_center =550x200)
+
+<img src="https://img-blog.csdnimg.cn/2020042713474914.png" height="60%" width="60%" />
 
 
 

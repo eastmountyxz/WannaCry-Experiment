@@ -1,6 +1,8 @@
 # WannaCry-Experiment
 该资源主要复现了WannCry勒索病毒过程，包括对应的资源、文章和勒索病毒。希望对您有所帮助~
 
+本人坚决反对利用教学方法进行犯罪的行为，一切犯罪行为必将受到严惩，绿色网络需要我们共同维护，更推荐大家了解它们背后的原理，更好地进行防护。
+
 <div align="center">
   <img src="https://img-blog.csdnimg.cn/20200413232834492.png" height="60%" width="60%" />
 </div>
